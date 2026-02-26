@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+    color: rgba(0, 0, 0, 0.638);
+}
+
+h1{
+    font-weight: bold;
+}
+
+span{
+    color: rgb(226, 43, 64);
+}
