@@ -3,16 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*cores nubank #320850 #490B75 #AA68FF*/
+/*background color #E9DFF6 #ECD9FF*/
 body{
-    background-color: cadetblue;
+    background-color: #E9DFF6;
     color: rgba(0, 0, 0, 0.638);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
+textarea{
+    width: 100%;
+    max-width: 600px;
+    resize: none;
+    height: 30px;
+}
 h1{
-    font-weight: bold;
+    font-size: bold;
+    color: #490B75;
+    margin: 20px;
 }
-
-span{
-    color: rgb(226, 43, 64);
+#botao{
+    background-color: #490B75;
+    width: 200px;
 }
